@@ -1,0 +1,19 @@
+# 仅安装在 Paper 大厅。Fabric 与 hub 必须转发同一玩家 UUID。
+# 请确认 Fabric 的 server.properties 中 level-name 是 world。
+# 修改了存档名，就将下面的 world 换成实际名字。
+fabric-stats-directory: /home/ubuntu/fabric/fabric/world/stats
+
+# 0 是快捷栏第一格，4 是第五格，8 是第九格。
+# 该格被其他物品占用时自动寻找空位；满背包时不覆盖任何物品。
+hotbar-slot: 0
+
+# 默认对本大厅进程内的所有世界生效。填入世界名可限制范围。
+# 例如 allowed-worlds: [world]。离开这些世界会移除本插件的入口头像。
+allowed-worlds: []
+
+give-head-on-join: true
+head-name: '&b个人档案'
+head-lore:
+  - '&7右键查看你的 Fabric 生存记录'
+menu-title: '我的生存档案'
+display-timezone: Asia/Shanghai

@@ -1,0 +1,8 @@
+This plugin includes Gson 2.11.0 by the Gson authors.
+Project: https://github.com/google/gson
+License: Apache License 2.0 (see GSON-LICENSE.txt in this directory).
+
+Packaging modification: Gson classes have been relocated from com.google.gson
+to dev.stephanoses.hubprofile.internal.gson. Gson source logic has not been changed.
+
+Paper API, MockBukkit, JUnit and build tools are not bundled in the plugin.
